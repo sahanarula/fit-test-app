@@ -1,1 +1,20 @@
 /* Empty. Add your own CSS if you like */
+.has-header {
+top: 70px;
+}
+ion-header-bar.bar-stable.bar.bar-header.disable-user-behavior {
+height: 70px;
+}
+.buttons.buttons-left.header-item {
+margin-top: 8px;
+}
+.platform-android .bar .title {
+font-size: 19px;
+line-height: 44px;
+text-align: center;
+margin-left: -10%;
+margin-top: 10px;
+}
+ion-view.pane {
+  padding-top: 70px;
+}
