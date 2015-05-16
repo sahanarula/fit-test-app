@@ -18,3 +18,6 @@ margin-top: 10px;
 ion-view.pane {
   padding-top: 70px;
 }
+.iframe-wrapper.pane {
+  padding-top: 70px;
+}

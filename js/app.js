@@ -20,7 +20,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider, $sceDelegateProvider) {
+  $sceDelegateProvider.resourceUrlWhitelist(['self', 'http://lakshimi.net:8004']);
   $stateProvider
 
   .state('app', {
